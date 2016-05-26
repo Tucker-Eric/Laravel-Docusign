@@ -1,0 +1,27 @@
+{
+  "name": "tucker-eric/laravel-docusign",
+  "description": "Laravel 5 Wrapper for Official DocuSign Rest API",
+  "keywords": [
+    "laravel",
+    "docusign",
+    "rest"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eric Tucker",
+      "email": "tucker.ericm@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "laravel/framework": "~5.0",
+    "tucker-eric/docusign-rest-client": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelDocusign\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}

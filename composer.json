@@ -15,8 +15,8 @@
   ],
   "require": {
     "php": ">=5.5.9",
-    "laravel/framework": "~5.0",
-    "tucker-eric/docusign-rest-client": "dev-master"
+    "illuminate/support": "~5.0",
+    "tucker-eric/docusign-rest-client": "^1.0"
   },
   "autoload": {
     "psr-4": {

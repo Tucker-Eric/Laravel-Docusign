@@ -16,7 +16,7 @@
   "require": {
     "php": ">=5.5.9",
     "illuminate/support": "~5.0",
-    "tucker-eric/docusign-rest-client": "^1.0"
+    "tucker-eric/docusign-rest-client": "^2.0"
   },
   "autoload": {
     "psr-4": {

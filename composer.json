@@ -23,5 +23,16 @@
       "LaravelDocusign\\": "src/"
     }
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelDocusign\\LeverPhpServiceProvider"
+      ],
+      "aliases": {
+        "DocuSign": "LaravelDocusign\\Facade\\DocuSign"
+      }
+    }
+  },
+
   "minimum-stability": "dev"
 }

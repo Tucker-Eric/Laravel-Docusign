@@ -7,6 +7,8 @@ A Laravel 5 wrapper for the [Docusign Rest Client](https://github.com/Tucker-Eri
 composer require tucker-eric/laravel-docusign
 ```
 
+If you are using Laravel 5.5 or a newer version the package will automatically register its service provider. You only need to generate the config file.
+
 After updating composer, add the service provider to the `providers` array in `config/app.php`
 
 ```php

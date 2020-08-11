@@ -8,10 +8,10 @@ class Client extends DocuSignClient
 {
     public function __construct(array $params = [])
     {
-        $this->username = config('docusign.username');
-        $this->password = config('docusign.password');
-        $this->integrator_key = config('docusign.integrator_key');
-        $this->host = config('docusign.host');
+        $params['host'] =  $params['host'] ?? config('docusign.username');
+        $params['username'] =  $params['username'] ?? config('docusign.password');
+        $params['password'] =  $params['password'] ?? config('docusign.integrator_key');
+        $params['integrator_key'] =  $params['integrator_key'] ?? config('docusign.host');
 
         parent::__construct($params);
     }

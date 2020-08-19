@@ -29,7 +29,7 @@
         "LaravelDocusign\\DocusignServiceProvider"
       ],
       "aliases": {
-        "DocuSign": "LaravelDocusign\\Facade\\DocuSign"
+        "DocuSign": "LaravelDocusign\\Facades\\DocuSign"
       }
     }
   },

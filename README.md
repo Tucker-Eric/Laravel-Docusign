@@ -1,5 +1,5 @@
 # Laravel Docusign
-A Laravel 6 wrapper for the [Docusign Rest Client](https://github.com/Tucker-Eric/docusign-rest-client)
+A Laravel wrapper for the [Docusign Rest Client](https://github.com/Tucker-Eric/docusign-rest-client)
 
 ### Install Through Composer
 

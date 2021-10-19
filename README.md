@@ -54,7 +54,7 @@ $signer = DocuSign::signer([
 Access DocuSign Api endpoints using `get()`;
 
 ```php
-DocuSign::get('folders')->list();
+DocuSign::get('folders')->callList();
 ```
 OR
 
